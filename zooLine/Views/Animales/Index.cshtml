@@ -1,0 +1,65 @@
+﻿@model IEnumerable<zooLine.Models.Animales>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Crear</h1>
+
+<p>
+    <a asp-action="Create">Crear un nuevo animal</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreCientifico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.año_nacimiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.año_muerte)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.estatura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ancho)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NombreCientifico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.año_nacimiento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.año_muerte)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.estatura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ancho)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
