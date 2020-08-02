@@ -1,17 +1,23 @@
-﻿@model zooLine.Models.Animales
+﻿@model zooLine.ViewModels.AnimalesViewModel
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Crear";
 }
 
-<h1>Create</h1>
+<h1>Crear</h1>
 
 <h4>Animales</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Crear">
+        <form asp-action="Create"enctype="multipart/form-data"method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="fotoAnimal" class="control-label"></label>
+                <input asp-for="fotoAnimal" class="custom-file-input" id="custom-file" />
+                <label class="custom-file-label" for="custom-file">Escoge una imagen</label>
+                <span asp-validation-for="fotoAnimal" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <label asp-for="Nombre" class="control-label"></label>
                 <input asp-for="Nombre" class="form-control" />
@@ -55,4 +61,10 @@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script type="text/javascript">
+        $(".custom-file-input").on("change", function () {
+            var fileName = $(this).val().split('\\').pop();
+            $(this).siblings(".custom-file-label").addClass("slected").html(fileName)
+        });
+    </script>
 }

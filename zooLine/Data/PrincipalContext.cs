@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using zooLine.Models;
+using zooLine.Controllers;
 
 namespace zooLine.Data
 {
@@ -16,5 +17,6 @@ namespace zooLine.Data
 
         public DbSet<Usuario> Usuario { get; set; }
         public DbSet <Animales> Animal { get; set; }
+       
     }
 }

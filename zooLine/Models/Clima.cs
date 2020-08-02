@@ -7,6 +7,7 @@ namespace zooLine.Models
 {
     public class Clima
     {
-
+        public int Id { get; set; }
+        public string NombreClima { get; set; }
     }
 }

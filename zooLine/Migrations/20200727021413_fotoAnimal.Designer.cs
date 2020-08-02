@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using zooLine.Data;
 
 namespace zooLine.Migrations
 {
     [DbContext(typeof(PrincipalContext))]
-    partial class PrincipalContextModelSnapshot : ModelSnapshot
+    [Migration("20200727021413_fotoAnimal")]
+    partial class fotoAnimal
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

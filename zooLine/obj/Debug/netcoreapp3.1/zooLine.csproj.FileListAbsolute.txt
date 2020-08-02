@@ -57,7 +57,6 @@ D:\PV3ERO\ZooLine\zooLine\zooLine\bin\Debug\netcoreapp3.1\runtimes\win-x86\nativ
 D:\PV3ERO\ZooLine\zooLine\zooLine\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\PV3ERO\ZooLine\zooLine\zooLine\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\PV3ERO\ZooLine\zooLine\zooLine\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\PV3ERO\ZooLine\zooLine\zooLine\obj\Debug\netcoreapp3.1\zooLine.csprojAssemblyReference.cache
 D:\PV3ERO\ZooLine\zooLine\zooLine\obj\Debug\netcoreapp3.1\zooLine.AssemblyInfoInputs.cache
 D:\PV3ERO\ZooLine\zooLine\zooLine\obj\Debug\netcoreapp3.1\zooLine.AssemblyInfo.cs
 D:\PV3ERO\ZooLine\zooLine\zooLine\obj\Debug\netcoreapp3.1\zooLine.RazorAssemblyInfo.cache
@@ -189,3 +188,7 @@ D:\PV3ERO\ZooLine\ZooLine\zooLine\obj\Debug\netcoreapp3.1\Razor\Views\Animales\D
 D:\PV3ERO\ZooLine\ZooLine\zooLine\obj\Debug\netcoreapp3.1\Razor\Views\Animales\Details.cshtml.g.cs
 D:\PV3ERO\ZooLine\ZooLine\zooLine\obj\Debug\netcoreapp3.1\Razor\Views\Animales\Edit.cshtml.g.cs
 D:\PV3ERO\ZooLine\ZooLine\zooLine\obj\Debug\netcoreapp3.1\Razor\Views\Animales\Index.cshtml.g.cs
+D:\PV3ERO\ZooLine\ZooLine\zooLine\obj\Debug\netcoreapp3.1\zooLine.csprojAssemblyReference.cache
+D:\PV3ERO\ZooLine\ZooLine\zooLine\obj\Debug\netcoreapp3.1\Razor\Views\Role\Create.cshtml.g.cs
+D:\PV3ERO\ZooLine\ZooLine\zooLine\obj\Debug\netcoreapp3.1\Razor\Views\Role\Index.cshtml.g.cs
+D:\PV3ERO\ZooLine\ZooLine\zooLine\obj\Debug\netcoreapp3.1\Razor\Views\Role\Update.cshtml.g.cs

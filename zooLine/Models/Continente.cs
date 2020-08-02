@@ -7,5 +7,7 @@ namespace zooLine.Models
 {
     public class Continente
     {
+        public int Id { get; set; }
+        public string NombreContinente { get; set; }
     }
 }

@@ -1,0 +1,14 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@model IEnumerable<IdentityRole>
+
+<h1 class="bg-info text-white">Todos los roles</h1>
+
+<form asp-action="Create" method="post">
+    <label for="nombre">Rol</label>
+    <input type="text" name="name" />
+    <button type="submit" class="btn btn-sm btn-primary">
+        Crear
+    </button>
+</form>
+
+
